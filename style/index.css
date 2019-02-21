@@ -74,6 +74,10 @@ select {
 .hoverable p{
     line-height: 10px;
 }
+.list{
+    padding: 15px !important;
+    border-radius: 2px;    
+}
 
 .list-title{
  width: 40%;   
@@ -113,7 +117,7 @@ select {
 }
 .list-detail{
    position: relative;
-   margin:50px 0 0 12px;
+   margin:65px 0 0 12px;
    
 }
 

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">		
+	<title>Sebastian Alvarez | Examen Front-End </title>
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">	
+        <link rel="stylesheet" type="text/css" href="style/materialize.min.css">	
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+<body>
+    
+  <div class="row">
+        
+        
+        <div class="row">
+        <div class="col l1 m3 s1"></div>
+        <!-- <div class="container-card z-depth-2 card col l6 m6 s10" > -->
+        <div class="col l10 s12 m10 content-wrap z-depth-2 card">	
+            <div class="row">
+                <nav>
+                
+                    <div id="nav-dash"class="nav-wrapper">
+                                <a href="dashboard.html" id="logon" class="left brand-logo ">DashBoard</a>                     
+                     <a href="view_user_grid.html" class="right btn hoverable">Lista de Usuario</a>                                            
+                     <a href="add_user.html" class="right btn hoverable">Agregar Usuario</a>
+                    </div>
+                
+                </nav>
+                
+            </div>
+            <div class="col l1 m1 "></div>
+            <div class="container-card col l10 m10 s10" >
+                    <div class="row center">
+                            <h2>Llene los campos, con la informacion solicitada</h2>
+                    </div>
+                    <div class="row">
+                            <form class="col s12">
+                              <div class="row">
+                                <div class="input-field col s12">
+                                   <span>Nombres</span> 
+                                  <input placeholder="Ej. Pablo Arturo " id="first_name" type="text" class="validate">                                  
+                                </div>                                
+                              </div>
+                              <div class="row">
+                                    <div class="input-field col l6 s12">
+                                            <span>Primer apellido</span>
+                                            <input placeholder="Ej. Mella" id="last_name" type="text" class="validate">                                  
+                                        </div>
+                                    <div class="input-field col l6 s12">
+                                            <span>Segundo apellido</span>
+                                            <input placeholder="Ej. Morales" id="last_name" type="text" class="validate">                                  
+                                        </div>
+                               </div>
+                               <div class="row">
+                                    <div class="input-field col l6 s12">
+                                            <span>Cedula</span>
+                                            <input placeholder="Ej. 40200571935" id="last_name" type="number" class="validate" maxlength="11">                                  
+                                    </div>
+                                    <div class="input-field col l6 s12">
+                                            <span>Edad</span>
+                                            <input placeholder="Ej. 22" id="last_name" type="number" class="validate" maxlength="2">                                  
+                                     </div>
+                               </div>
+                               <div class="row">
+                                    <div class="input-field col l6 s12">
+                                            <span>Genero</span>
+                                            <select class="browser-default">
+                                                <option value="" disabled selected>Selecciona tu opcion</option>
+                                                <option value="1">Masculino</option>
+                                                <option value="2">Femenino</option>
+                                                <option value="3">Otro</option>
+                                            </select>
+                                    </div>
+                                    <div class="input-field col l6 s12">
+                                            <span>Fecha de Nacimiento</span>
+                                            <input placeholder="Ej. 21/02/2000" id="last_name" type="date" class="validate">                                  
+                                     </div>
+                               </div> 
+                               <div class="row">
+                                    <div class="input-field col s12">
+                                       <span>Direccion</span> 
+                                      <input placeholder="Ej. Av. Autopista Duarte, despues de la bolera Km15" id="first_name" type="text" class="validate">                                  
+                                    </div>                                
+                                  </div>                                
+                                  <div class="row">
+                                        <div class="input-field col l6 s12">
+                                                <span>Telefono</span>
+                                                <input placeholder="Ej. 8095628785" id="last_name" type="number" class="validate" maxlength="10">                                  
+                                        </div>
+                                        <div class="input-field col l6 s12">
+                                                <span>Correo electronico</span>
+                                                <input placeholder="Ej. juanperez@wes.com" id="last_name" type="email" class="validate">                                  
+                                         </div>
+                                   </div> 
+                                   <div class="row">
+                                        <div class="input-field col l6 s12">
+                                                <span>Estado Civil</span>
+                                                <select class="browser-default">
+                                                    <option value="" disabled selected>Selecciona tu respuesta</option>
+                                                    <option value="1">Soltero/a</option>
+                                                    <option value="2">Comprometido/a</option>
+                                                    <option value="3">Casado/a</option>
+                                                    <option value="4">Unión libre</option>
+                                                    <option value="5">Separado/a</option>
+                                                    <option value="6">Divorciado/a</option>
+                                                    <option value="7">Viudo/a</option>
+                                                </select>
+                                        </div>
+                                        <div class="input-field col l6 s12">
+                                                <span>Tiene hijos ?</span>
+                                                <select class="browser-default">
+                                                        <option value="" disabled selected>Selecciona tu respuesta</option>
+                                                        <option value="1">Si</option>
+                                                        <option value="2">No</option>                                                        
+                                                    </select>
+                                         </div>
+                                 </div>
+
+                                 <div id="divbtn-add-user" class="row">
+                                        <a href="view_user_list.html" class="right btn hoverable">Guardar</a>
+                                        <a href="#" class="right btn hoverable">Limpiar Campos</a>                                                                                    
+                                 </div>
+                              
+                            </form>
+                          </div>
+
+
+            </div>  
+               
+        
+        </div>    
+        </div>   
+
+  </div> 
+    
+
+
+</body>
+</html>
